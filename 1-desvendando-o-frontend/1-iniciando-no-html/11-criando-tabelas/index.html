@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11 - Criando Tabelas</title>
+    <meta charset="UTF-8">
+    <style>
+      table {
+        border: 3px solid black;
+      }
+      table td, table th {
+        border-bottom: 1px solid black;
+        padding: 5px;
+      }
+
+      table th {
+        background-color: rgb(0, 0, 0);
+        color: white;
+      }
+
+      table thead th {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <table cellspacing="0"> <!--Tabela-->
+      <thead> <!--Cabeçalho-->
+        <tr> <!--Linha do Cabeçalho-->
+          <th>ID</th> <!--Coluna do Cabeçalho-->
+          <th>Nome</th>
+          <th>Autor</th>
+          <th>Data da Criação</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Artigo 1</td>
+          <td>Filipe Covas</td>
+          <td>01-01-2024</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Artigo 2</td>
+          <td>Joaquim Manuel</td>
+          <td>02-01-2024</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="4">Total de Artigos</th>
+        </tr>
+        <tr>
+          <td colspan="4" style="text-align: center;">2</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr>
+
+    <table cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Nuno</td>
+          <td>44</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>

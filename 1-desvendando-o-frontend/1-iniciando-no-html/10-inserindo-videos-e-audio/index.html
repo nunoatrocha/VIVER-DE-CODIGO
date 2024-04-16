@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>10 - Inserindo Vídeo e Áudio</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+    <audio 
+    src="./assets/media/movement.mp3" controls loop>
+  </audio>
+
+  <hr>
+
+  <video 
+    src="./assets/media/video_aula.mp4" controls width="400">
+  </video>
+
+  <video 
+    controls width="400">
+    <source src="./assets/media/vid_test.mp4">
+    <source src="./assets/media/vid_test.mp4"> <!-- aqui seria um segundo video caso o 1 não seja suportado pelo browser -->
+  </video>  <!-- Tb podemos usar o source alterativo para o audio-->
+
+  </body>
+</html>
