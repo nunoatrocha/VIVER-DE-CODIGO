@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>16 - Criando Menu de Navegação entre Páginas</title>
+    <meta charset="UTF-8">
+    <style>
+      #layout {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      #layout aside {
+        width: 20%;
+      }
+      #layout main {
+        width: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="layout">
+      <aside>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="listas.html">Listas</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="tipografia.html">Tipografia</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="tabelas.html">Tabelas</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <h1>Home</h1>
+        <p>Bem vindo ao Desvendando o Front-End</p>
+      </main>
+    </div>
+  </body>
+</html>

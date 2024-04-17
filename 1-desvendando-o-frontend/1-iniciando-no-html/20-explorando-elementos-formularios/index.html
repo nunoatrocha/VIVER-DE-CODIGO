@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>20 - Explorando os vários elementos para Formulários</title>
+  <style>
+    section {
+      border-bottom: 1px solid rgb(109, 109, 109);
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Explorando os vários elementos para Formulários</h1>
+    </header>
+    <section>
+      <header>
+        <h2>Input</h2>
+      </header>
+        <label for="name">Primeiro nome:</label>
+        <input type="text" name="name" id="name" placeholder="Insire o primeiro nome" required>
+    </section>
+    <section>
+      <header>
+        <h2>Radio</h2>
+      </header>
+        <label for="masculino">Maculino</label>
+        <input type="radio" id="masculino" name="genero" value="m">
+        <label for="femonino">Feminino</label>
+        <input type="radio" id="femonino" name="genero" value="f">
+    </section>
+    <section>
+      <header>
+        <h1>Select</h1>
+      </header>
+      <label for="cars">Escolher carro:</label>
+      <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+    </section>
+    <section>
+      <header>
+        <h1>Multi Select</h1>
+      </header>
+      <label for="cars">Escolher carro:</label>
+      <select name="cars" id="cars" size="4" multiple>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+    </section>
+    <section>
+      <header>
+        <h2>Textarea</h2>
+      </header>
+      <label for="obs">Obs:</label>
+      <textarea name="obs" id="obs" cols="30" rows="5" style="resize: none;">Isto é uma TextArea</textarea>
+    </section>
+    <section>
+      <header>
+        <h2>Fieldset</h2>
+      </header>
+      <form action="">
+        <fieldset><legend>Utilizador:</legend>
+          <label for="name-1">Primeiro nome:</label><br><br>
+          <input type="text" name="name-1" id="name-1" placeholder="Insire o primeiro nome" required><br><br>
+          <label for="name-2">Segundo nome:</label><br><br>
+          <input type="text" name="name-2" id="name-2" placeholder="Insire o segundo nome" required><br>
+        </fieldset><br><br>
+        <button type="submit">Enviar</button>
+      </form><br><br>
+    </section>
+    <section>
+      <header>
+        <h2></h2>
+      </header>
+      <label for="browser">Escolhe um Browser da lista:</label>
+      <input list="browsers" name="browser" id="browser">
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+    </section>
+  </main>
+</body>
+</html>
