@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 - Explorando os vários tipos de Input</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body {
+            margin-top: 50px;
+            background: rgb(34,193,195);
+            background: radial-gradient(circle, rgba(34,193,195,1) 44%, rgba(253,205,45,1) 100%);
+        }
+        main {
+            background-color: #9AEBA3;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            box-sizing: border-box;
+            max-width: 800px;
+            height: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        header {
+          margin-bottom: 40px ;
+        }
+        h1 {
+            text-align: center;
+        }
+        fieldset {
+            border-radius: 10px;
+            border-color: rgb(69,196,176, 0.5);
+        }
+        hr {
+            border-color: rgb(69,196,176, 0.5);
+        }
+        input {
+            background-color: #a6fcb0;
+            border-color: #45C4B0;
+        }
+        legend {
+            font-weight: 600;
+        }
+        button {
+            display: block;
+            margin:auto;
+            width: 6rem;
+            height: 2rem;
+            border-radius: 10px;
+            background-color: #a6fcb0;
+            border-color: #45C4B0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Explorando os vários tipos de Input</h1>
+        </header>
+        <section>
+            <header>
+                <h2>Formulário</h2>
+            </header>
+            <form action="example.html">
+                <fieldset>
+                    <legend>Inputs convencionais</legend>
+                    <label for="iname">Nome:</label><br>
+                    <input type="text" id="iname" name="name" placeholder="Inserir o Nome" required>
+                    <hr>
+                    <label for="iemail">Email:</label><br>
+                    <input type="email" id="iemail" name="email" placeholder="Inserir o Email" required>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Inputs numéricos</legend>
+                    <label for="inumber">Número:</label><br>
+                    <input type="number" id="inumber" name="number" required placeholder="Inserir o número">
+                    <hr>
+                    <label for="itelmov">Telemóvel</label><br>
+                    <input type="tel" id="itelmov" name="telemovel" required placeholder="Inserir o número de telemóvel">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Inputs DateTime</legend>
+                    <label for="idate">Seleciona uma data:</label><br>
+                    <input type="date" id="idate" name="date" required>
+                    <hr>
+                    <label for="ihour">Seleciona uma hora:</label>
+                    <input type="time" id="ihour" name="hour" required>
+                    <hr>
+                    <label for="idate-hour">Seleciona uma data e hora:</label><br>
+                    <input type="datetime-local" id="idate-hour" name="date-hour" required>
+                    <hr>
+                    <label for="iweek">Seleciona uma semana:</label><br>
+                    <input type="week" id="iweek" name="week" required>
+                    <hr>
+                    <label for="imonth">Seleciona um mês:</label><br>
+                    <input type="month" id="imonth" name="month" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Input Password</legend>
+                    <label for="ipassword">Nova Password:</label><br>
+                    <input type="password" id="ipassword" name="password" required placeholder="Insire a nova password">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Input de Upload</legend>
+                    <label for="ifile">Seleciona uma imagem:</label><br>
+                    <input type="file" id="ifile" name="file" accept="image/png image/jpeg" required>
+                    <hr>
+                    <label for="ifilemult">Seleciona algumas imagens:</label><br>
+                    <input type="file" id="ifilemult" name="filemult" accept="image/png image/jpeg" required multiple >
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Inputs de Seleção</legend>
+                    <label for="">Meio de transporte:</label>
+                    <input type="checkbox" id="icar" name="car" value="car">
+                    <label for="icar">Carro</label>
+                    <input type="checkbox" id="imoto" name="moto" value="moto">
+                    <label for="imoto">Mota</label>
+                    <input type="checkbox" id="ibike" name="bike" value="bike">
+                    <label for="ibike">Bicicleta</label>
+                    <hr>
+                    <label for="">Se "Carro" qual a marca:</label>
+                    <input type="radio" id="ihonda" name="cars" value="volvo" >
+                    <label for="ivolvo">Honda</label>
+                    <input type="radio" id="imazda" name="cars" value="mazda" >
+                    <label for="imazda">Mazda</label>
+                    <input type="radio" id="itoyota" name="cars" value="toyota" >
+                    <label for="itoyota">Toyota</label>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Outros:</legend>
+                    
+                </fieldset>
+                <br>
+                <button>Subscrever</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
