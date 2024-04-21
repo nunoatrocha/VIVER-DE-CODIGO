@@ -5,4 +5,12 @@
     height: 200px;
     background-color: aqua;
     border: 2px solid red;
+    display: inline-block;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border:  1px solid red;
 }

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+
+body {
+    margin: 30px;
+}
+
+section .container {
+    width: 100px;
+    height: 150px;
+    border: 4px solid white;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+header h3 {
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+section .container.visible {
+    overflow: visible;
+}
+
+section .container.hidden {
+    overflow: hidden;
+}
+
+section .container.scroll {
+    overflow: scroll;
+}
+
+section .container.auto {
+    overflow: auto;
+}
