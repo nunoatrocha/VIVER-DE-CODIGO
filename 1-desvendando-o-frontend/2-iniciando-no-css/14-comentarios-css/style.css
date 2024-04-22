@@ -1,0 +1,22 @@
+* {
+    background-color: black;
+}
+
+body {
+    color: white;
+}
+
+/* Comentários no CSS */
+
+header h1 {
+    margin-left:  100px;
+    margin-bottom: 50px;
+}
+.container p {
+    width: 300px;
+    height: 150px;
+    margin-left: 200px;
+    background-color: rebeccapurple;
+    display: inline-block;
+    padding: 10px;
+}
