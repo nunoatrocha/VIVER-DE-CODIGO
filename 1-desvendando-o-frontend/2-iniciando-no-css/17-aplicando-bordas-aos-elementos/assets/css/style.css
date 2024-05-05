@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: rgb(76, 0, 99);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.row {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 80px;
+    border: 2px solid rgb(77, 1, 100);
+    border-radius: 20px;
+    background-color: #1b1b1b;
+    -webkit-box-shadow: -1px -2px 35px 0px rgba(138,5,138,0.7);
+    -moz-box-shadow: -1px -2px 35px 0px rgba(138,5,138,0.7);
+    box-shadow: -1px -2px 35px 0px rgba(138,5,138,0.7);
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+.box.dotted:hover {
+    border: 5px dotted white;
+    transform: scale(1.03);
+}
+.box.dashed:hover {
+    border: 5px dashed white;
+    transform: scale(1.03);
+}
+.box.solid:hover {
+    border: 5px solid white;
+    transform: scale(1.03);
+}
+.box.double:hover {
+    border: 5px double white;
+    transform: scale(1.03);
+}
+
+
