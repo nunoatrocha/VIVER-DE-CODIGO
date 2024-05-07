@@ -5,8 +5,9 @@ html {
   body {
     background-color: #171717;
     padding: 0;
-    margin: 0;
     color: #fff;
+    margin: 0 auto;
+    width: 80%;
   }
   
   * {
@@ -28,10 +29,13 @@ html {
   }
 
   section {
-    background-image: url(./assets/media/main-bg.jpg);
+    background-image: url(./assets/media/image.jpg);
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 50px;
+    border-radius: 50px;
+    overflow: hidden;
   }
 
 .container {
@@ -55,6 +59,7 @@ html {
 .content-container video {
     width: 50%;
     border-radius: 7px;
+    margin-left: 10px;
 }
 
 .overlay {
