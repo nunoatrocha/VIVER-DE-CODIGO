@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Briem Hand";
+    font-style: normal;
+    font-weight: 100 900; /* 100 = é o minimo 900  = é o maximo */
+    font-display: swap;
+    src: url(../fonts/briem-hand.woff2);
+}
+

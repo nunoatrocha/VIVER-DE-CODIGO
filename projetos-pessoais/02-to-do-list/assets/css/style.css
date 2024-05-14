@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #F2F2F2;
+    font-size: 1.4rem;
+}
+
+/* ----------section-header---------- */
+
+.section-header header {
+    text-align: center;
+}
+
+.section-header header h1 {
+    font-size: 4rem;
+
+}
+.container {
+    width: 100%;
+    max-width: 736px;
+    margin: 0 auto;
+}
+
+/* ----------section-add-task---------- */
+
+.section-add-task .form-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-add-task .form-container input {
+    width: 90%;
+    height: 54px;
+    padding: 10px;
+    background-color: #262626;
+    border-radius: 8px;
+    border: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #808080;
+    outline: none;
+}
+
+.section-add-task .form-container button {
+    width: 10%;
+    min-width: 90px;
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.section-add-task .form-container button span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
