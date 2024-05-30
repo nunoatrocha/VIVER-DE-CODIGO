@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+aside {
+    /* border: 1px solid red; */
+    background-color: rgb(34, 34, 34);
+    width: 20%;
+    height: 100Vh;
+    padding: 10px;
+}
+
+aside nav {
+    margin-top: 20px;
+    margin-left: 8px;
+}
+main {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+
+main p {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+main h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container aside a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.2rem;
+}
+
+
+main > div p:first-child {
+    color: red;
+}
+
+main > div p:last-child {
+    color: rgb(0, 36, 156);
+}
+
+.container aside a:active {
+    color: blue;
+}
+
+.container aside a:hover:not(a:active) {
+    color: red;
+}
+
+.form {
+    border-bottom: 2px solid rgb(34, 34, 34);
+}
+
+.form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.form input:focus {
+    border-color: red;
+}
+
+input[type="email"] {
+    margin-bottom: 30px;
+  }
+
+.c-box {
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
