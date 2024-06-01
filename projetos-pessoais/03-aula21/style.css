@@ -88,12 +88,16 @@ main > div p:last-child {
 }
 
 .form input:focus {
-    border-color: red;
+    color: rgb(255, 0, 0);
 }
 
-input[type="email"] {
-    margin-bottom: 30px;
-  }
+.form input:hover {
+    color: rgb(255, 0, 0);
+}
+
+.form input:required {
+    color: yellow;
+}
 
 .c-box {
     color: white;
@@ -101,4 +105,8 @@ input[type="email"] {
     display: flex;
     align-items: start;
     gap: 5px;
+}
+
+.c-box input[type="checkbox"]:checked + label {
+    color: green;
 }
