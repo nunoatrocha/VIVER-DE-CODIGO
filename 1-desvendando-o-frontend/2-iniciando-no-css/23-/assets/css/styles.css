@@ -1,0 +1,71 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #111111;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#layout {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#layout main {
+  width: 100%;
+  padding: 20px 10%;
+}
+
+section {
+  margin: 20px 0;
+  padding: 50px 0;
+  border-bottom: 2px solid #535353;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.imagesContainer img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.svgContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.svgContainer svg {
+  width: 100%;
+  max-width: 200px;
+}
+
+.svgContainer svg.svg-juventos-white {
+  fill: #fff;
+}
+
+.svgContainer svg.svg-juventos-white:hover {
+  fill: #00b8af;
+}
+
+.svgHasImg img {
+  fill: #fff;
+}
