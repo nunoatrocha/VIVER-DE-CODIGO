@@ -23,6 +23,7 @@ body {
 
 .box img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .box h2 {
