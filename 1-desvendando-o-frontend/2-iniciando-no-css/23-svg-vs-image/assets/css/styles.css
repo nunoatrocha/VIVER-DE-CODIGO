@@ -21,11 +21,26 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
+  background-image: url("../images/bg_cr2-2.jpg") ;
+  background-size:cover;
+  background-position:left;
+  background-repeat: no-repeat;
 }
 
 #layout main {
   width: 100%;
   padding: 20px 10%;
+}
+
+#layout main nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#layout main nav img {
+  width: 150px;
+  margin-left: -40px;
 }
 
 section {
@@ -59,6 +74,10 @@ section {
 }
 
 .svgContainer svg.svg-juventos-white {
+  fill: #00b8af;
+}
+
+.svgContainer svg.cr {
   fill: #fff;
 }
 
